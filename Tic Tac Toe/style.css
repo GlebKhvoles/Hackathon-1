@@ -1,0 +1,64 @@
+html {
+    font-family: 'Fredoka One';
+    color: #333333;
+    height: 100%;
+    width: 100%;
+}
+section {
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(134, 118, 213);
+    color: #333333;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: rgb(229, 121, 81);
+    font-family: 'Fredoka One';
+    font-size: large;
+    width: 150px;
+    height: 50px;
+}
+
+.cell {
+    font-family: 'Fredoka One';
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #333333;
+    border: 3px solid #333333;
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+body {
+    background:
+		linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%) no-repeat,
+		linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%) no-repeat;
+}
